@@ -1,10 +1,10 @@
-# 🚗 Car Scraper
+# Car Scraper
 
 Asynchronous web scraper for auto listings with daily scheduled execution and PostgreSQL backups.
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Daily scraping using Playwright
 - PostgreSQL storage
@@ -14,7 +14,7 @@ Asynchronous web scraper for auto listings with daily scheduled execution and Po
 
 ---
 
-## 🧩 Requirements
+## Requirements
 
 - Docker
 - Docker Compose
@@ -30,7 +30,7 @@ git clone https://github.com/okor314/car-scraper.git
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Create `.env` file in the project root:
 
@@ -46,7 +46,7 @@ DUMP_TIME=12:00
 ```
 ---
 
-## ▶️ Running the application
+## Running the application
 
 Build and start services:
 
