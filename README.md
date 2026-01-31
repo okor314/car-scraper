@@ -60,3 +60,19 @@ docker compose up --build
 ```bash
 docker compose down
 ```
+---
+
+## Explanation of main directories and files
+
+- `src/` — directory with main scraping code.  
+- `database/` — function for database connection, creation of table and saving data.  
+- `scripts/` — bash-scripts for automatisation: database dump and run cron jobs.  
+- `dumps/` — results of scheduled database dump.  
+- `.env` — configuration: database credentials and scheduling of scraping and dump.  
+
+### Scraping files
+ - `main.py` — main script to run scraper.
+ - `scraper.py` — scraper logic (scraping catalog, detail pages, pagination).
+ - `page.py` — classes for parsing HTML pages.
+ - `playwright_client.py` — Initialisation of Playwright.
+---
